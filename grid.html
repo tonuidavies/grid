@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link href="reset.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;
+    margin-right: 8.33%;
+    text-decoration: none;
+    text-decoration-color: white;
+    display: inline-block;
+    border: 5px;
+    border-color: black}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color: limegreen;
+    color: #ffffff;
+    padding: 15px;
+}
+    .banner{width:inherit;
+        height: 200;
+        padding: 0
+        
+    }
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color :white;
+    color: forestgreen;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: greenyellow;
+    
+}
+    .footer ul {
+    list-style-type: none;
+    margin: 0;
+        padding: 0;}
+    .footer li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color :white;
+    color: forestgreen;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+    .footer{width: 100%;
+        height: 180px;
+        background-color: limegreen;
+            list-style-type: none;
+        
+    }
+    .footer li:hover{background-color: greenyellow;
+        
+    }
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1>Huduma Health Centre</h1>
+</div>
+    <div class="banner">
+        <img src="health.jpg" alt="size" width="100%" height="450px"> 
+    </div>
+
+<div class="row">
+
+<div class="col-3 menu">
+<ul>
+<li href="#">Huduma</li>
+<li href="#">our Vision</li>
+<li href="#">Services</li>
+<li href="#">Contact Us</li>
+</ul>
+</div>
+
+<div class="col-6">
+<h1>About Us</h1>
+<p>Opened in 1954, The Nairobi Hospital has excelled in medical expertise and services provision and has deservedly earned recognition throughout East Africa and beyond as an advanced diagnostic, treatment and referral centre. Expansive investment in latest technology and medical equipment has enabled us establish leadership in medical procedures both in Kenya and outside.</p>
+<p></p>
+</div>
+</div>
+    <div class="footer">
+    <div class="col-3"> Co. lADDRESS<br>
+The Nairobi Hospital,<br>
+Argwings Kodhek Rd,<br>
+P.O. Box 30026,<br>
+G.P.O 00100,<br>
+Nairobi, Kenya.
+</div> 
+        <div class=".col-3">
+<li ><a href="#">Billing & Insurance</a></li>
+<li>Patient Resources</li>
+<li>Careers</li>
+<li>Corporate Social Responsbility</li>
+    </div>
+        
+    <div class="col-3"><h2>WARD VISITING HOURS</h2>
+Morning (11:00AM - 12:00PM)<br>
+Afternoon (4:00PM - 6:00PM)
+VISITOR COUNTER
+</div>
+    </div>
+    </body>
+</html>
